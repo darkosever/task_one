@@ -13,7 +13,7 @@ class CiJobViewModel(private val playSound: (MediaPlayer) -> Unit = { it.start()
     val jobs = mutableStateListOf<CiJob>()
     private val previousJobs = mutableListOf<CiJob>()
 
-    private val warningSoundUrl = "https://darkosever.si/u/beepbeep.wav"
+    private val warningSoundUrl = "https://www.dropbox.com/s/ukzsaet10hbekbq/doh1_y.wav?dl=0"
 
     init {
         startPolling()
